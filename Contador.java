@@ -6,9 +6,9 @@ public class Contador {
 		Scanner terminal = new Scanner(System.in);
 
 		System.out.println("Digite o primeiro parâmetro\n");
-		int parametroUm  = scanner.nextInt();
+		int parametroUm  = terminal.nextInt();
 		System.out.println("Digite o segundo parâmetro\n");
-		int parametroDois = scanner.next();
+		int parametroDois = terminal.nextInt();
 		
 		try {
 			//chamando o método contendo a lógica de contagem
